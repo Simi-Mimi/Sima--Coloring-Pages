@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body class="hide-scroll">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Calibri Light;
+      font-size: 2vh;
+    }
+
+    .hide-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .hide-scroll {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+
+    .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%;
+      /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    div.gallery {
+      margin: 8px;
+      border: 5px solid #ffffff;
+      float: left;
+      width: 100%;
+
+
+    }
+
+    div.gallery:hover {
+      border: 4px solid #ff0000;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+
+    }
+
+    .column {
+      -ms-flex: 20%;
+      /* IE10 */
+      flex: 20%;
+      max-width: 20%;
+      padding: 0 8px;
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+  </style>
+  <!-- Header -->
+  <div class="header">
+    <h1>בחרו את הדמות האהובה עליכם</h1>
+    <h3>ולחצו על התמונה בכדי לבחור ממגוון הציורים שלנו</h3>
+  </div>
+
+  <!-- Photo Grid -->
+  <div class="row">
+    <div class="column">
+
+      <div class="gallery">
+        <a target="_blank" href="תמונות/101 דלמטים/101.html">
+          <img src="תמונות/101 דלמטים/דוגמית/101 דלמטים.png" alt="Mountains" width="100%">
+        </a>
+        <div class="desc">חתולים בצמרת</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/מיקי מאוס/Micky.html">
+          <img src="תמונות/מיקי מאוס/דוגמית/מיקי מאוס קטלוג.jpg" width="100%">
+        </a>
+        <div class="desc">מיקי מאוס</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/precious-moments/precious-moments.html">
+          <img src="תמונות/precious-moments/דוגמית/precious-moments_קטלוג-.png" width="100%">
+        </a>
+        <div class="desc">precious-moments</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/זוטרופוליס/Zootropoly.html">
+          <img src="תמונות/זוטרופוליס/דוגמית/זוטרופוליס קטלוג.png" width="100%">
+        </a>
+        <div class="desc">זוטרופוליס</div>
+      </div>
+
+
+
+    </div>
+
+    <div class="column">
+
+      <div class="gallery">
+        <a target="_blank" href="תמונות/הולי הובי/Holly Hobby.html">
+          <img src="תמונות/הולי הובי/דוגמית/Holly Hobby.jpg" alt="Mountains" width="100%">
+        </a>
+        <div class="desc">הולי הובי</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/בל/Belle.html">
+          <img src="תמונות/בל/דוגמית/Belle.png" width="100%">
+        </a>
+        <div class="desc">הנסיכה בל-היפה והחיה</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/דמבו/Danbo.html">
+          <img src="תמונות/דמבו/דוגמית/דמבו קטלוג.webp" width="100%">
+        </a>
+        <div class="desc">דמבו הפיל המעופף</div>
+      </div>
+
+    </div>
+    <div class="column">
+
+      <div class="gallery">
+        <a target="_blank" href="תמונות/טום וג'רי/Tom-Jerry.html">
+          <img src="תמונות/טום וג'רי/דוגמית/טום וג'רי קטלוג.png" width="100%">
+        </a>
+        <div class="desc">טום וג'רי</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/חתול תעלול/Cat-in-the-hat.html">
+          <img src="תמונות/חתול תעלול/דוגמית/חתול_תעלול_קטלוג-removebg-preview.png" width="100%">
+        </a>
+        <div class="desc">חתול תעלול</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/ציורים של פעם/Old style paintings.html">
+          <img src="תמונות/ציורים של פעם/דוגמית/ציורים של פעם.png" width="100%">
+        </a>
+        <div class="desc">ציורים של פעם</div>
+      </div>
+
+    </div>
+    <div class="column">
+      <div class="gallery">
+        <a target="_blank" href="תמונות/תותית/Tootit.html">
+          <img src="תמונות/תותית/דוגמית/Strawberry Shortcake.png" width="100%">
+        </a>
+        <div class="desc">תותית</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/פו הדב/Poo.html">
+          <img src="תמונות/פו הדב/דוגמית/Poo.png" alt="Mountains" width="100%">
+        </a>
+        <div class="desc">פו הדוב</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/דרדסים/Dardas.html">
+          <img src="תמונות/דרדסים/דוגמית/דרדסים קטלוג.png" alt="Mountains" width="100%">
+        </a>
+        <div class="desc">דרדסים</div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="column">
+      <div class="gallery">
+        <a target="_blank" href="תמונות/Tewety/tweety.html">
+          <img src="תמונות/Tewety/דוגמית/Tweety קטלוג.gif" width="100%">
+        </a>
+        <div class="desc">Tweety</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/חתולים בצמרת/The-Aristocats.html">
+          <img src="תמונות/חתולים בצמרת/דוגמית/חתולים בצמרת.png" width="100%">
+        </a>
+        <div class="desc">חתולים בצמרת</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="תמונות/סנופי/Snoopy.html">
+          <img src="תמונות/סנופי/דוגמית/סנופי קטלוג.png" width="100%">
+        </a>
+        <div class="desc">סנופי</div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>
